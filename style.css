@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-size: 18px;
+  /* Image */
+  background: url("images/brickwall.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: rgb(18, 22, 22);
+  background-blend-mode: multiply;
+}
+
+/* Title */
+.title {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  text-align: center;
+}
+h1 {
+  font-size: 42px;
+  box-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff, 0 0 15px #8c00ff, 0 0 15px #8c00ff, 0 0 15px #8c00ff,
+    0 0 15px #8c00ff, 0 0 15px #8c00ff;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  padding: 20px;
+}
+
+/* Questions */
+.questions {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.question-one,
+.question-two,
+.question-three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  gap: 10px;
+}
+.question-one {
+  box-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #def6ff, 0 0 15px #def6ff, 0 0 15px #def6ff,
+    0 0 15px #def6ff, 0 0 15px #def6ff;
+  border-radius: 20px;
+}
+.question-two {
+  box-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #def6ff, 0 0 15px #def6ff, 0 0 15px #def6ff,
+    0 0 15px #def6ff, 0 0 15px #def6ff;
+  border-radius: 20px;
+}
+.question-three {
+  box-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #def6ff, 0 0 15px #def6ff, 0 0 15px #def6ff,
+    0 0 15px #def6ff, 0 0 15px #def6ff;
+  border-radius: 20px;
+}
+
+/* Buttons */
+.options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+.qOne,
+.qTwo,
+.qThree {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 20px 50px 20px 50px;
+}
+button {
+  font-size: 24px;
+  width: 200px;
+  height: 40px;
+}
+button:hover {
+  background-color: #444;
+  cursor: pointer;
+}
+/* Q One */
+.a,
+.d,
+.g {
+  border-radius: 10px;
+  background-color: transparent;
+  color: #fff;
+  box-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff, 0 0 15px #00ff40, 0 0 15px #00ff40, 0 0 15px #00ff40,
+    0 0 15px #00ff40, 0 0 15px #00ff40;
+}
+/* Q Two */
+.b,
+.e,
+.h {
+  border-radius: 10px;
+  background-color: transparent;
+  color: #fff;
+  box-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff, 0 0 15px #ff0000, 0 0 15px #ff0000, 0 0 15px #ff0000,
+    0 0 15px #ff0000, 0 0 15px #ff0000;
+}
+/* Q Three */
+.c,
+.f,
+.i {
+  border-radius: 10px;
+  background-color: transparent;
+  color: #fff;
+  box-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff, 0 0 15px #ff9100, 0 0 15px #ff9100, 0 0 15px #ff9100,
+    0 0 15px #ff9100, 0 0 15px #ff9100;
+}
+
+/* Results */
+.results {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 40px;
+}
+.results h2 {
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff, 0 0 15px #ff9100, 0 0 15px #ff9100, 0 0 15px #ff9100,
+    0 0 15px #ff9100, 0 0 15px #ff9100;
+}
+.results p {
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff, 0 0 15px #00ff40, 0 0 15px #00ff40, 0 0 15px #00ff40,
+    0 0 15px #00ff40, 0 0 15px #00ff40;
+}
